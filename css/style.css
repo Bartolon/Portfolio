@@ -106,14 +106,23 @@ a {	text-decoration: none; }
 	color:rgba(49, 220, 243, 0.99);
 	font-size: 18px;
 	line-height: 24px;
-	text-align: justify;
+	text-align: center;
 }
+
 .slider_info .informacion .subtitulo {
 	color: rgb(246, 201, 201);
 	font-size: 21px;
 	line-height: 24px;
 	margin-bottom: 16px;
 }
+
+.slider_info .informacion .sks {
+	color:rgba(49, 220, 243, 0.99);
+	font-size: 18px;
+	line-height: 24px;
+	text-align: justify;
+}
+
 /* Botones Slider Info */
 .slider_info .informacion .botones {
 	width: 100%;
