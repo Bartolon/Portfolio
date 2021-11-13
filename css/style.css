@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: url('../img/low52.jpg'); 
+	background-size: cover;
+	background-attachment: fixed;
+	font-family:'Open Sans',Sans-serif, Arial, Helvetica;
+}
+
+a {	text-decoration: none; }
+
+.contenedor {
+	width: 90%;
+	max-width: 550px;
+	margin: auto;
+	height: 100%;
+	display: block;
+	align-items:center;
+}
+.tarjeta {
+	margin:40px 0;
+	width: 100%;
+	background: rgba(223, 150, 150, 0.493);
+	border-radius: 5px;
+	overflow: hidden;
+	z-index: 1000;
+}
+
+/* --------------------------------------- */
+/* ----- Slider Info */
+/* --------------------------------------- */
+
+.slider_info {
+	text-align: center;
+	overflow: hidden;
+	padding: 20px 0;
+	z-index: 1000;
+	position: relative;
+}
+
+/* Seccion Informacion */
+.slider_info .informacion {
+	width: 100%;
+}
+.slider_info .info article {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.slider_info .informacion article .slide{
+	background: rgba(25, 25, 39, 0.829);
+	width: 100%;
+	left: 100%;
+	padding: 20px 80px;
+	position: absolute;
+}
+/* Slider Flechas */
+.slider_info .flecha-info {
+	font-size: 35px;
+	line-height: 35px;
+	color: #110b0bab;
+	position: absolute;
+	top:50%;
+	z-index: 1000;
+}
+.slider_info .flecha-info:hover {
+	color:#190;
+}
+.slider_info .flecha-info.anterior {
+	left: 20px;
+}
+.slider_info .flecha-info.siguiente {
+	right: 20px;
+}
+/* Estilos para los Slide de Info */
+.slider_info .informacion .nombre {
+	color: rgba(159, 233, 159, 0.739);
+	font-size: 38px;
+	line-height: 38px;
+	font-weight:600;
+	margin-bottom: 16px;
+}
+.slider_info .informacion .trabajo {
+	color: rgba(213, 248, 241, 0.657);
+	font-size: 18px;
+	line-height: 18px;
+	margin-bottom: 16px;
+}
+.slider_info .informacion .pais {
+	color: rgba(213, 248, 241, 0.657);
+	font-family: 14px;
+	line-height: 14px;
+}
+.slider_info .informacion .pais img {
+	position: relative;
+	top:2px;
+	margin-right: 10px;
+}
+.slider_info .informacion .texto {
+	color:rgba(49, 220, 243, 0.99);
+	font-size: 18px;
+	line-height: 24px;
+	text-align: justify;
+}
+.slider_info .informacion .subtitulo {
+	color: rgb(246, 201, 201);
+	font-size: 21px;
+	line-height: 24px;
+	margin-bottom: 16px;
+}
+/* Botones Slider Info */
+.slider_info .informacion .botones {
+	width: 100%;
+	padding: 35px;
+}
+.slider_info .informacion .botones span {
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	margin: 0 10px;
+	border-radius: 50%;
+	background:rgba(29, 228, 211, 0.603);
+}
+.slider_info .informacion .botones .active {
+	background: rgba(47, 235, 47, 0.774);
+}
+/* ----- ----- Social Media ----- ----- */
+.redes {
+	text-align: center;
+	padding: 30px 0;
+}
+.redes a {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	padding: 15px 15;
+	border-radius: 50%;
+	color: #f0f1f0;
+	margin: 1 0px;
+}
+.redes .github { background: rgba(143, 98, 98, 0.99); }
+.redes .linkedin { background: rgba(14, 119, 168, 0.99); }
+
+.correo {
+	text-align: center;
+	padding: 10px 0;
+}
+.correo a {
+	display: contents;
+	width: 45px;
+	height: 45px;
+	padding: 25px 25;
+	border-radius: 50%;
+	color: rgba(172, 246, 172, 0.445);
+	margin: 11 0px;
+}
+.correo .mail { background: rgba(125, 190, 233, 0.9); }
+
+.youtube {
+	text-align: center;
+	padding: 3px 0;
+}
+.youtube a {
+	display: block;
+	width: 15px;
+	height: 15px;
+	padding: 15px 12;
+	border-radius: 15%;
+	color: rgba(246, 248, 243, 0.9);
+	margin: auto;
+}
+.slide .youtube {background:rgba(196, 48, 43, 0);}
+
+ul{
+	padding: 0%;
+	margin-top: 0%;
+	text-align: justify;
+}
