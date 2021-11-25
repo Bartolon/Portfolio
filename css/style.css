@@ -54,7 +54,7 @@ a {	text-decoration: none; }
 	position: relative;
 }
 .slider_info .informacion article .slide{
-	background: rgba(25, 25, 39, 0.829);
+	background: rgba(20, 20, 29, 0.966);
 	width: 100%;
 	left: 100%;
 	padding: 20px 80px;
@@ -64,13 +64,13 @@ a {	text-decoration: none; }
 .slider_info .flecha-info {
 	font-size: 35px;
 	line-height: 35px;
-	color: #110b0bab;
+	color: #faf5f5ab;
 	position: absolute;
 	top:50%;
 	z-index: 1000;
 }
 .slider_info .flecha-info:hover {
-	color:#190;
+	color:rgba(223, 236, 101, 0.644);
 }
 .slider_info .flecha-info.anterior {
 	left: 20px;
